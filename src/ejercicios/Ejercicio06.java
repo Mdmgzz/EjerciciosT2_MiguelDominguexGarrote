@@ -28,6 +28,8 @@ public class Ejercicio06 {
 		}else {															// si no lo es entonces incorrecto
 			System.out.println("INCORRECTO");
 		}
+	sc.close();
+	
 	}
 
 }
