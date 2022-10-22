@@ -19,11 +19,11 @@ public class Ejercicio03 {
 		kgtotales=sc.nextInt();
 		
 		//comprobamos si hay comida suficiente o no
-		if (cantidadcomida>=kgtotales/nºanimales) {
-			racion=kgtotales/nºanimales;
-			System.out.print("Dipone de suficiente comida y la racion de cada animal será de: "+ racion +"Kg");
-		}else {
-			racion=cantidadcomida/nºanimales;
+		if (cantidadcomida>=kgtotales/nºanimales) {								// si la cantidad de comida es mayor o igual que los kg entre los animales
+			racion=kgtotales/nºanimales;										// da el valor de lo que come cada animal a la variable racion
+			System.out.print("Dipone de suficiente comida y la racion de cada animal será de: "+ racion +"Kg");		// lo muestra
+		}else {		
+			racion=cantidadcomida/nºanimales;									// si no es mayor entonces calcula la racion de comida que le toca a cada animal
 			System.out.print("No Dipone de suficiente comida y la racion de cada animal será de: "+ racion +"Kg");
 		}
 		//cerramos el scanner
