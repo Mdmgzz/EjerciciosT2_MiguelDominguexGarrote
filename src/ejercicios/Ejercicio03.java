@@ -11,11 +11,11 @@ public class Ejercicio03 {
 		
 		// creamos el Scanner y solicitamos al usuario los valores
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Introduzca la cantidad de comida comprada: ");
+		System.out.print("Introduzca la cantidad de comida comprada: ");		//preguntamos por la cantidad de comida comprada 
 		cantidadcomida=sc.nextInt();
-		System.out.print("Introduzca la cantidad de animales que hay: ");
+		System.out.print("Introduzca la cantidad de animales que hay: ");		// preguntamos por la cantidad de animales que hay
 		nºanimales=sc.nextInt();
-		System.out.print("Introduzca los kg que comen en total: ");
+		System.out.print("Introduzca los kg que comen en total: ");				// preguntamos por los kg totales que comen
 		kgtotales=sc.nextInt();
 		
 		//comprobamos si hay comida suficiente o no
