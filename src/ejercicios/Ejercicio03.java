@@ -3,6 +3,12 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio03 {
+	
+	/*
+	 * He hecho pruebas con:
+	 * 20,4,20 Deberia salir: Dipone de suficiente comida y la racion de cada animal será de: 5.0Kg
+	 * 5,4,10  Deberia salir; No Dipone de suficiente comida y la racion de cada animal será de: 0.5Kg
+	 */
 
 	public static void main(String[] args) {
 		// bloque de variables

@@ -3,6 +3,12 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio05 {
+	
+	/*
+	 * He hecho pruebas con:
+	 * 4  Deberia salir: El valor absoluto del numero introducido es: 4
+	 * -4 Deberia salir: El valor absoluto del numero introducido es: 4
+	 */
 
 	public static void main(String[] args) {
 		// bloque de variables

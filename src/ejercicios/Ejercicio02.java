@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Ejercicio02 {
 
 	public static void main(String[] args) {
+		
+		
+		/*
+		 * He hecho pruebas con:
+		 * 20537237(mi dni) Deberia salir: 20537237P
+		 * 232452232        Deberia salir: El numero no es valido
+		 */
 		// bloque de variables
 		int num, resto;			// en la variable num se guardara el numero de dni y en el resto se guarda el ult numero
 		char letra = ' ';		// aqui se guardara la letra que de como resultado y para ello hay que definir la variable antes para  que no de error

@@ -5,6 +5,19 @@ import java.util.Scanner;
 public class Ejercicio01 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * He hecho pruebas con las siguientes cifras:
+		 * -2       deberia salir: Introduce un numero valido. 
+		 * 88889898 deberia salir: Introduce un numero valido.
+		 * 0        deberia salir: El numero ES capicua
+		 * 9999     deberia salir: El numero ES capicua
+		 * 22       deberia salir: El numero ES capicua
+		 * 333      deberia salir: El numero ES capicua
+		 * 343      deberia salir: El numero ES capicua
+		 * 2332     deberia salir: El numero ES capicua
+		 * 2233     El numero NO es capicua
+		 */
 		// Declaramos las variables
 				int numero,num, cifra2, cifra3, resto;
 
@@ -17,7 +30,7 @@ public class Ejercicio01 {
 				// antes de comparar los numeros, vamos a separar la ultima cifra del numero en una variable
 				resto = numero % 10;
 				// Comprobamos que este entre esos numeros
-				if (numero < 1 || numero > 10000) {						//Si el numero es menor que 1 y mayor que 9999 no es valido
+				if (numero < 0 || numero > 10000) {						//Si el numero es menor que 1 y mayor que 9999 no es valido
 					System.out.println("Introduce un numero valido. ");
 				} else if (numero >= 1 && numero < 10) {				//si el numero unicamente tiene una cifra es capicua
 					System.out.println("El numero ES capicua");

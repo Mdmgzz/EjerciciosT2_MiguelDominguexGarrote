@@ -3,6 +3,11 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio06 {
+	/*
+	 * he probado haciendo la suma mal y haciendo la suma bien
+	 * si la haces bien saldrá: CORRECTO
+	 * si la hacer mal saldrá: INCORRECTO
+	 */
 
 	public static void main(String[] args) {
 		//bloque de variables 
