@@ -65,23 +65,24 @@ public class Ejercicio04 {
 		if (numero<10 && numero>=0) {			//	mostrara el resultado si el numero es de una sola cirfra
 		System.out.print(cifra2);
 		}
-		switch (numero) {
+		switch (numero) {						// esta parte son  los casos especiales 
 		case 10->
-		System.out.print("DIEZ");
+		System.out.print("DIEZ");				// cuando el numero sea 10 decolvera DIEZ
 		case 11->
-		System.out.print("ONCE");
+		System.out.print("ONCE");				// cuando el numero sea 11 decolvera ONCE		
 		case 12->
-		System.out.print("DOCE");
+		System.out.print("DOCE");				// cuando el numero sea 12 decolvera DOCE
 		case 13->
-		System.out.print("TRECE");
+		System.out.print("TRECE");				// cuando el numero sea 13 decolvera TRECE
 		case 14->
-		System.out.print("CATORCE");
+		System.out.print("CATORCE");			// cuando el numero sea 14 decolvera CATORCE
 		case 15->
-		System.out.print("QUINCE");
+		System.out.print("QUINCE");				// cuando el numero sea 15 decolvera  quince
 		case 20->
-		System.out.print("VEINTE");
+		System.out.print("VEINTE");				// cuando el numero sea 20 decolvera veinte
 		} 
-		if ( decena==1 && unidad>0 ) {
+		
+		if ( decena==1 && unidad>0 ) {					// esto concatena la primera cifra con la segunda para formar el numero completo
 			System.out.print(cifra1+cifra2);
 		}else if ( decena==2 && unidad>0 ) {
 			System.out.print(cifra1+cifra2);
