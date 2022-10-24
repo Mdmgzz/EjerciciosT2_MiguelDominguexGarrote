@@ -13,11 +13,9 @@ public class Ejercicio08 {
 		 *  780 y 8 deberia de salir: 1950,00
 		 *  890 y 6 deberia de salir: 2225,00
 		 *  780 y 6 deberia de salir: 1950,00
-		 *  900 y 9 deberia de salir : 
+		 *  900 y 9 deberia de salir : Ya que la distancia es mayor a 800km y la estancia mayor a 7 dias, se le aplica un 30% de descuento.
+El total de su viaje es: 1575.0
 		 */ 
-		
-		
-		
 		
 		// Declaramos las variables
 				int distancia, estancia;		// se guardaran los km de distancia y los dias de estancia
