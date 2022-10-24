@@ -24,6 +24,10 @@ public class Ejercicio03 {
 		System.out.print("Introduzca los kg que comen en total: ");				// preguntamos por los kg totales que comen
 		kgtotales=sc.nextInt();
 		
+		// comprobamos si hay animales 
+		if (nºanimales<=0) {					// Si se introduce en nºanimales 0 o numeros negativos saltara el aviso
+			System.out.print("NO HAY ANIMALES");
+		}
 		//comprobamos si hay comida suficiente o no
 		if (cantidadcomida>=kgtotales/nºanimales) {								// si la cantidad de comida es mayor o igual que los kg entre los animales
 			racion=kgtotales/nºanimales;										// da el valor de lo que come cada animal a la variable racion

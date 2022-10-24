@@ -6,7 +6,7 @@ public class Ejercicio06 {
 	/*
 	 * he probado haciendo la suma mal y haciendo la suma bien
 	 * si la haces bien saldrá: CORRECTO
-	 * si la hacer mal saldrá: INCORRECTO
+	 * si la hacer mal saldrá: INCORRECTO , el resultado correcto es: 
 	 */
 
 	public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class Ejercicio06 {
 		if (resultado==num1+num2) {
 			System.out.println("CORRECTO");								// si el resultado es igual a la suma de num1 y num2 correcto
 		}else {															// si no lo es entonces incorrecto
-			System.out.println("INCORRECTO");
+			System.out.println("INCORRECTO, el resultado correcto es: "+ num1+num2);
 		}
 	sc.close();
 	
